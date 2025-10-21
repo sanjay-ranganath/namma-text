@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://nammatext.onrender.com/"
+  baseURL: "https://nammatext.onrender.com/",
 });
 
 export default instance;
